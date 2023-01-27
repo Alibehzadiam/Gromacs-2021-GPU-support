@@ -1,11 +1,11 @@
 
-wget https://github.com/Kitware/CMake/releases/download/v3.25.1/cmake-3.25.1.tar.gz
-tar xfz cmake-3.25.1.tar.gz
-mkdir /content/cmake-3.25.1/build
-cd /content/cmake-3.25.1/build
-cmake /content/cmake-3.25.1/
-make -j 2
-make install
+!wget https://github.com/Kitware/CMake/releases/download/v3.25.1/cmake-3.25.1.tar.gz
+!tar xfz cmake-3.25.1.tar.gz
+!mkdir /content/cmake-3.25.1/build
+!cd /content/cmake-3.25.1/build
+!cmake /content/cmake-3.25.1/
+!make -j 2
+!make install
 wget ftp://ftp.gromacs.org/gromacs/gromacs-2021.tar.gz
 tar xfz gromacs-2021.tar.gz
 cd /content/gromacs-2021
